@@ -1,0 +1,21 @@
+# Arquivos de texto da Unity: finais de linha normalizados
+*.cs text diff=csharp
+*.md text
+*.json text
+*.asset text
+*.unity text
+*.prefab text
+*.mat text
+*.meta text
+*.shader text
+
+# Binários
+*.png binary
+*.wav binary
+*.ttf binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.resS binary
+*.resource binary
+*.assets binary

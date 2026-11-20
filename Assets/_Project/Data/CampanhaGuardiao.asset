@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc1f6aa5147ae64ca204d363dd8bad6, type: 3}
+  m_Name: CampanhaGuardiao
+  m_EditorClassIdentifier: Assembly-CSharp::GuardiaoDoFarol.CampaignData
+  days:
+  - title: Dia 1
+    shiftDuration: 100
+    firstArrivalDelay: 2
+    minArrivalInterval: 10
+    maxArrivalInterval: 14
+    patienceSeconds: 50
+    narratorName: Taverneiro
+    introLines:
+    - "Mais um dia na taverna O Farol. Dizem que a luz desta casa guia her\xF3is cansados de volta para casa."
+    - "Os aventureiros de antigamente agora s\xF3 procuram uma cerveja, uma carne assada ou uma sopa quente."
+    - "WASD ou setas para andar. E ou Espa\xE7o para pegar no barril ou no fog\xE3o e para entregar nas mesas."
+    customers:
+    - heroName: Borin, o Guerreiro
+      sprite: {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: c9602b0b8cafa4846b78f36b5d8affa3, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      - {fileID: 21300000, guid: c74f00402cccd714e9a19c72154bb7ae, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Ah, isso aqui... quase t\xE3o bom quanto a vit\xF3ria contra o Drag\xE3o de Pedra."
+      - "\xC0s vezes eu ainda acordo procurando minha espada. Agora s\xF3 encontro o travesseiro."
+    - heroName: Lyra, a Maga
+      sprite: {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: cf7a35a8baab2a143831a4a8f7266838, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      - {fileID: 21300000, guid: ad649ec946ab4db4a9178ee8e3877764, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - Antigamente eu esquentava a sopa com um estalar de dedos.
+      - "Minha magia foi embora com a idade. Ainda bem que voc\xEA n\xE3o precisa dela para cozinhar."
+    - heroName: Tavio, o Arqueiro
+      sprite: {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 172063c762572b3419e4d12daf3b0e9d, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      - {fileID: 21300000, guid: cbebccece0d351a47a8c54860dc32939, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Quarenta anos acertando ma\xE7\xE3s a cem passos de dist\xE2ncia..."
+      - "Hoje o \xFAnico alvo que eu quero \xE9 esta cadeira confort\xE1vel."
+  - title: Dia 2
+    shiftDuration: 100
+    firstArrivalDelay: 2
+    minArrivalInterval: 9
+    maxArrivalInterval: 13
+    patienceSeconds: 45
+    narratorName: Taverneiro
+    introLines:
+    - 'O boato se espalhou: a comida d''O Farol continua sendo a melhor do porto.'
+    - "Hoje devem aparecer rostos novos. Ou melhor... rostos antigos, cheios de hist\xF3rias."
+    customers:
+    - heroName: Dom Aldric, o Paladino
+      sprite: {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 44b266a27c0c9374eadff8d495d3c789, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      - {fileID: 21300000, guid: c5a828a5f14a281479ba78b2e4f243ae, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Jurei proteger os fracos at\xE9 o fim dos meus dias."
+      - "O juramento continua valendo. S\xF3 que agora eu protejo a mesa do canto."
+    - heroName: Mirela, a Ladina
+      sprite: {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 3a1873a5d1efdb048bab3b88f67aabd8, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      - {fileID: 21300000, guid: eb25fb61ab10c784ca1bc14a2c50e140, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Relaxe, taverneiro. Eu me aposentei. Sua bolsa de moedas est\xE1 segura."
+      - ...Bom, quase sempre.
+    - heroName: "Grom, o B\xE1rbaro"
+      sprite: {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 424e002e05845fc45a13e9dd6cc4ad3e, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      - {fileID: 21300000, guid: 49d1240347242f44ba9af9261f90b373, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - GROM GOSTA DE COMIDA!
+      - "Grom tamb\xE9m gosta de voc\xEA, taverneiro. Grom voltar\xE1."
+  - title: Dia 3
+    shiftDuration: 140
+    firstArrivalDelay: 2
+    minArrivalInterval: 8
+    maxArrivalInterval: 12
+    patienceSeconds: 40
+    narratorName: Taverneiro
+    introLines:
+    - Hoje cedo encontrei uma carta presa na porta, com o selo do Coletor Real.
+    - "Ainda n\xE3o tive coragem de ler tudo... mas o cheiro de problema atravessa o papel."
+    customers:
+    - heroName: "Irm\xE3 Celestia, a Cl\xE9riga"
+      sprite: {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: ea94a524433df554ab20eb2aa5a1bea8, type: 3}
+      - {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      - {fileID: 21300000, guid: 20340b7b90b49dc48ad1d7a05e66945c, type: 3}
+      - {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - Que a luz deste lugar nunca se apague.
+      - "Vi uma carta com o selo real no balc\xE3o. Est\xE1 tudo bem por aqui?"
+    - heroName: Borin, o Guerreiro
+      sprite: {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: c9602b0b8cafa4846b78f36b5d8affa3, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      - {fileID: 21300000, guid: c74f00402cccd714e9a19c72154bb7ae, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Carta do Coletor Real? Hunf. Isso nunca \xE9 boa not\xEDcia."
+      - "Na minha \xE9poca, a gente resolvia d\xEDvidas com um duelo. Hoje \xE9 com papelada."
+    - heroName: Mirela, a Ladina
+      sprite: {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 3a1873a5d1efdb048bab3b88f67aabd8, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      - {fileID: 21300000, guid: eb25fb61ab10c784ca1bc14a2c50e140, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - 'Coletor Real... deixa eu adivinhar: Valdemar Ferrete?'
+      - "Conhe\xE7o aquele sujeito. Ele nunca esquece uma moeda devida. Nem uma."
+    - heroName: Lyra, a Maga
+      sprite: {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: cf7a35a8baab2a143831a4a8f7266838, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      - {fileID: 21300000, guid: ad649ec946ab4db4a9178ee8e3877764, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Voc\xEA leu a carta? A taverna deve 100 moedas de impostos atrasados?!"
+      - "Eu ajudaria, mas gastei minhas economias em po\xE7\xF5es contra dor nas costas."
+    - heroName: Tavio, o Arqueiro
+      sprite: {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 172063c762572b3419e4d12daf3b0e9d, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      - {fileID: 21300000, guid: cbebccece0d351a47a8c54860dc32939, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Ouvi os boatos: se a d\xEDvida n\xE3o for paga, O Farol fecha."
+      - "Sem esta taverna, onde n\xF3s, velhos her\xF3is, vamos contar nossas hist\xF3rias?"
+  - title: Dia 4
+    shiftDuration: 140
+    firstArrivalDelay: 2
+    minArrivalInterval: 7
+    maxArrivalInterval: 10
+    patienceSeconds: 35
+    narratorName: Taverneiro
+    introLines:
+    - 'Valdemar Ferrete passou por aqui e pregou um aviso na porta:'
+    - "\"Pagamento de 100 moedas at\xE9 o p\xF4r do sol do quinto dia. Caso contr\xE1rio, a taverna ser\xE1 fechada.\""
+    - "Faltam s\xF3 dois dias. Cada cliente conta."
+    customers:
+    - heroName: Dom Aldric, o Paladino
+      sprite: {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 44b266a27c0c9374eadff8d495d3c789, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      - {fileID: 21300000, guid: c5a828a5f14a281479ba78b2e4f243ae, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Vi o aviso na porta. Um paladino n\xE3o pode ignorar uma injusti\xE7a."
+      - "N\xE3o posso erguer minha espada contra a lei... mas posso fazer mais um pedido!"
+    - heroName: "Grom, o B\xE1rbaro"
+      sprite: {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 424e002e05845fc45a13e9dd6cc4ad3e, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      - {fileID: 21300000, guid: 49d1240347242f44ba9af9261f90b373, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Grom viu homem magro de chap\xE9u pregando papel na porta."
+      - "Grom quis jogar homem magro no mar. Celestia disse que n\xE3o pode. Ent\xE3o Grom come."
+    - heroName: "Irm\xE3 Celestia, a Cl\xE9riga"
+      sprite: {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: ea94a524433df554ab20eb2aa5a1bea8, type: 3}
+      - {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      - {fileID: 21300000, guid: 20340b7b90b49dc48ad1d7a05e66945c, type: 3}
+      - {fileID: 21300000, guid: e248f5b5cc7858d429a8aeea6ab494aa, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Rezei por voc\xEA e por esta casa esta manh\xE3."
+      - E espalhei pela vila que a comida daqui cura qualquer tristeza. Vai vir mais gente!
+    - heroName: Mirela, a Ladina
+      sprite: {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 3a1873a5d1efdb048bab3b88f67aabd8, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      - {fileID: 21300000, guid: eb25fb61ab10c784ca1bc14a2c50e140, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Valdemar j\xE1 fechou tr\xEAs tavernas no porto. Ele adora o barulho do cadeado."
+      - "N\xE3o d\xEA esse prazer a ele. Junte essas moedas."
+    - heroName: Borin, o Guerreiro
+      sprite: {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: c9602b0b8cafa4846b78f36b5d8affa3, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      - {fileID: 21300000, guid: c74f00402cccd714e9a19c72154bb7ae, type: 3}
+      - {fileID: 21300000, guid: 8bdbb764e9251d743b2e22eedf2337be, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Amanh\xE3 \xE9 o grande dia, hein?"
+      - "J\xE1 enfrentei ex\xE9rcitos inteiros. Voc\xEA vai enfrentar um cobrador. Vai dar tudo certo!"
+  - title: Dia 5
+    shiftDuration: 140
+    firstArrivalDelay: 2
+    minArrivalInterval: 6
+    maxArrivalInterval: 9
+    patienceSeconds: 30
+    narratorName: Taverneiro
+    introLines:
+    - "\xDAltimo dia. Ao p\xF4r do sol, Valdemar Ferrete vir\xE1 buscar as 100 moedas."
+    - "Os velhos her\xF3is prometeram vir. Agora depende de mim e da velocidade das minhas pernas."
+    customers:
+    - heroName: Lyra, a Maga
+      sprite: {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: cf7a35a8baab2a143831a4a8f7266838, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      - {fileID: 21300000, guid: ad649ec946ab4db4a9178ee8e3877764, type: 3}
+      - {fileID: 21300000, guid: 714adb86a17e0d3438d50737c5a9d1ba, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Treinei a noite toda e consegui fazer uma fa\xEDsca!"
+      - "Pequena, mas \xE9 magia. Hoje tudo \xE9 poss\xEDvel."
+    - heroName: Tavio, o Arqueiro
+      sprite: {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 172063c762572b3419e4d12daf3b0e9d, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      - {fileID: 21300000, guid: cbebccece0d351a47a8c54860dc32939, type: 3}
+      - {fileID: 21300000, guid: 5159d5f151f09484284b4c311e05c4ec, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Acertei uma ma\xE7\xE3 hoje de manh\xE3. A primeira em dez anos."
+      - "\xC9 um bom sinal, taverneiro. Hoje ningu\xE9m erra o alvo."
+    - heroName: Dom Aldric, o Paladino
+      sprite: {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 44b266a27c0c9374eadff8d495d3c789, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      - {fileID: 21300000, guid: c5a828a5f14a281479ba78b2e4f243ae, type: 3}
+      - {fileID: 21300000, guid: beb2af388d572494eb0e8b7614788733, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Hoje vim como cliente e como guardi\xE3o."
+      - "Se Valdemar tentar algo desonesto, ter\xE1 que passar por mim."
+    - heroName: "Grom, o B\xE1rbaro"
+      sprite: {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 424e002e05845fc45a13e9dd6cc4ad3e, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      - {fileID: 21300000, guid: 49d1240347242f44ba9af9261f90b373, type: 3}
+      - {fileID: 21300000, guid: d2ca6abf7670f1f4ebc490839999505e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Grom trouxe fome de dois b\xE1rbaros!"
+      - "Taverna n\xE3o pode fechar. Onde Grom vai comer?"
+    - heroName: Mirela, a Ladina
+      sprite: {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      walkFrames:
+      - {fileID: 21300000, guid: 3a1873a5d1efdb048bab3b88f67aabd8, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      - {fileID: 21300000, guid: eb25fb61ab10c784ca1bc14a2c50e140, type: 3}
+      - {fileID: 21300000, guid: 493821ab8b5e4144cb3aef0feb6e5c1e, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      servedLines:
+      - "Fiz uma visitinha ao escrit\xF3rio do Valdemar... s\xF3 para ler os pap\xE9is, juro."
+      - "A d\xEDvida \xE9 real, mas o prazo tamb\xE9m: at\xE9 o p\xF4r do sol. Corra!"
+  victoryTitle: A TAVERNA FOI SALVA!
+  victoryText: "Ao p\xF4r do sol, Valdemar Ferrete abriu a porta e encontrou {moedas} moedas sobre o balc\xE3o... e sete her\xF3is aposentados de bra\xE7os cruzados ao redor dele.\n\nEle contou as moedas duas vezes, assinou o recibo e saiu sem dizer uma palavra. Borin ergueu a caneca, Grom bateu na mesa, e Lyra acendeu uma pequena chama, a primeira em muitos anos.\n\nA luz d'O Farol continua acesa, guiando her\xF3is cansados de volta para casa."
+  defeatTitle: A TAVERNA FOI FECHADA
+  defeatText: "Ao p\xF4r do sol, Valdemar Ferrete contou {moedas} moedas. N\xE3o era o bastante.\n\nAs portas d'O Farol foram trancadas com corrente e cadeado. Os her\xF3is prometeram juntar for\xE7as e voltar um dia...\n\nMas, naquela noite, a luz da velha taverna se apagou."

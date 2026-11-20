@@ -1,0 +1,41 @@
+# Unity — pastas geradas pelo Editor (recriadas ao abrir o projeto)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# A build pronta do jogo (Build/Windows) FICA no repositório de propósito.
+# Só ignoramos o que a Unity gera e não deve ser distribuído:
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Arquivos de IDE / solução gerados automaticamente
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports e sistema
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
